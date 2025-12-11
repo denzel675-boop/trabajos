@@ -1,82 +1,68 @@
-body{
-background-color: rgb(255, 255, 255);
-margin: auto;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-#contenedor {
-  width: 90%;
-  margin: 20px auto;
+body {
+  background-color: #f4f4f9;
+  padding: 40px;
+  color: #333;
 }
-
-.coles {
-  float: left;
-  width: 33%; 
-  padding: 5px;
+.main-container {
+  max-width: 700px;
+  margin: 0 auto;
 }
-
-.coles1 {
-  float: left;
-  width: 30%;
-  padding: 5px; 
+h2 {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  color: #555;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
 }
+.challenge {    
+  margin-bottom: 50px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+.btn-asym {
+  padding: 10px 40px;
 
-.box {
-  margin-top: auto;
-  margin-bottom: 10px;
-  color: rgb(0, 0, 0);
+  background-color: darkorchid;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  display: inline-block;
   font-weight: bold;
-  text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  transition:  0.20s;
 }
-
-#caja1 { 
-    height: 50px; 
-    background-color: lightcoral; 
+.btn-asym:hover {
+  background-color: #5b4bc4;
 }
-
-#caja2 { 
-    height: 120px; 
-    background-color: yellow;
+.card {
+  width: 300px;
+  border: 2px solid #e0e0e0;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
 }
-
-#caja3 { 
-    height: 70px; 
-    background-color: green; 
+.card h3 {
+  margin-bottom: 10px;
+  color: #2d3436;
 }
-
-#caja4 { 
-    height: 300px; 
-    background-color: darkblue; 
+.card p {
+  color: #636e72;
+  line-height: 1.5;
 }
-
-#caja5 { 
-    height: 300px; 
-    background-color: gray; 
-}
-
-#caja6 { 
-    height: 100px; 
-    background-color: lightgreen; 
-
-}
-
-#caja7 { 
-    height: 150px; 
-    background-color: orange; 
-}
-
-#caja8 { 
-    height: 255px; 
-    background-color: gold;
-}
-
-#caja9 { 
-    height: 90px; 
-    background-color: darkblue; 
-
-}
-
-#caja10 { 
-    height: 205px; 
-    background-color: purple;
+.centered-box {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #00b894;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 4px;
 }
